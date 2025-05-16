@@ -1,5 +1,5 @@
-import { SpecializedQualityUpdater } from "@/domain/quality-updater";
-import { Item } from "@/domain/item";
+import { SpecializedQualityUpdater } from "../quality-updater";
+import { Item } from "../item";
 
 const backstagePassesUpdater: SpecializedQualityUpdater = {
   matches: (item) => item.name.startsWith("Conjured"),

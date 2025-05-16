@@ -1,5 +1,5 @@
-import { QualityUpdater } from "@/domain/quality-updater";
-import { Item } from "@/domain/item";
+import { QualityUpdater } from "../quality-updater";
+import { Item } from "../item";
 
 const standardItemUpdater: QualityUpdater = {
   updateQuality: (item) => {

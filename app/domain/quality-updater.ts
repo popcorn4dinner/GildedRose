@@ -1,9 +1,9 @@
-import { Item } from "@/domain/item";
-import standardItemUpdater from "@/domain/quality-updaters/standard-items";
-import agedBrieUpdater from "@/domain/quality-updaters/aged-brie";
-import backstagePassesUpdater from "@/domain/quality-updaters/backstage-passes";
-import legendaryItemUpdater from "@/domain/quality-updaters/legendary-items";
-import conjuredItemsUpdater from "@/domain/quality-updaters/conjured-items";
+import { Item } from "./item";
+import standardItemUpdater from "./quality-updaters/standard-items";
+import agedBrieUpdater from "./quality-updaters/aged-brie";
+import backstagePassesUpdater from "./quality-updaters/backstage-passes";
+import legendaryItemUpdater from "./quality-updaters/legendary-items";
+import conjuredItemsUpdater from "./quality-updaters/conjured-items";
 
 export interface SpecializedQualityUpdater extends QualityUpdater {
   matches(item: Item): boolean;

@@ -1,5 +1,6 @@
-import { SpecializedQualityUpdater } from "@/domain/quality-updater";
-import { Item } from "@/domain/item";
+import { SpecializedQualityUpdater } from "../quality-updater";
+import { Item } from "../item";
+
 const MAX_QUALITY = 50;
 
 const agedBrieUpdater: SpecializedQualityUpdater = {

@@ -1,5 +1,5 @@
-import { Item } from "@/domain/item";
-import qualityUpdater from "@/domain/quality-updater";
+import { Item } from "../domain/item";
+import qualityUpdater from "../domain/quality-updater";
 
 export default function performQualityUpdate(items: Item[]): Item[] {
   return items.map((item) => {

@@ -1,5 +1,5 @@
-import { Item } from "@/domain/item";
-import performQualityUpdate from "@/application/perform-quality-update";
+import { Item } from "./domain/item";
+import performQualityUpdate from "./application/perform-quality-update";
 
 class GildedRose {
   items: Array<Item>;

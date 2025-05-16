@@ -8,6 +8,7 @@
     "pretest": "rimraf app/**/*.js test/**/*.js",
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
+    "test:jest:update-snapshot": "jest --updateSnapshot",
     "test:mocha": "nyc mocha",
     "test:vitest": "vitest --coverage"
   },

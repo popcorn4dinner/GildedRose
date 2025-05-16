@@ -14,7 +14,7 @@ const agedBrieUpdater: SpecializedQualityUpdater = {
 function determineQualityChange(item: Item): number {
   if (item.quality >= MAX_QUALITY) return 0;
 
-  if (item.sellIn < 0) return 2;
+  if (item.sellIn <= 0) return 2;
 
   return 1;
 }

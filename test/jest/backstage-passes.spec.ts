@@ -29,6 +29,7 @@ describe("Gilded Rose - Backstage passes", () => {
 
   it("should not increase quality over 50", () => {
     const gildedRose = new GildedRose([new Item(name, 11, 50)]);
+    gildedRose.updateQuality();
     const items = gildedRose.updateQuality();
     expect(items[0].quality).toBe(50);
   });

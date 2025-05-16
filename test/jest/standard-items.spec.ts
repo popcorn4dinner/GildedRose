@@ -45,7 +45,7 @@ describe("Gilded Rose - Standard Items", () => {
     expect(items[0].quality).toBe(0);
   });
 
-  it("should not increase the speed of quality increase exponentially", () => {
+  it("should not decrease the speed of quality increase exponentially", () => {
     const gildedRose = new GildedRose([new Item(name, 0, 6)]);
     gildedRose.updateQuality();
     const items = gildedRose.updateQuality();

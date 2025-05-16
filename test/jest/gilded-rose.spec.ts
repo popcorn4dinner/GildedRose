@@ -22,7 +22,7 @@ describe("Gilded Rose", () => {
       new Item("Backstage passes to a TAFKAL80ETC concert", 14, 21),
       new Item("Backstage passes to a TAFKAL80ETC concert", 9, 50),
       new Item("Backstage passes to a TAFKAL80ETC concert", 4, 50),
-      new Item("Conjured Mana Cake", 2, 5),
+      new Item("Conjured Mana Cake", 2, 4),
     ];
 
     const gildedRose = new GildedRose(items);
@@ -40,7 +40,7 @@ describe("Gilded Rose", () => {
       new Item("Backstage passes to a TAFKAL80ETC concert", 12, 23),
       new Item("Backstage passes to a TAFKAL80ETC concert", 7, 50),
       new Item("Backstage passes to a TAFKAL80ETC concert", 2, 50),
-      new Item("Conjured Mana Cake", 0, 3),
+      new Item("Conjured Mana Cake", 0, 0),
     ];
 
     const gildedRose = new GildedRose(items);

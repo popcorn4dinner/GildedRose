@@ -2,7 +2,7 @@ import { GildedRose, Item } from "@/gilded-rose";
 
 const name = "Conjured Mana Cake";
 
-describe.skip("Gilded Rose - Legendary Items", () => {
+describe("Gilded Rose - Conjured Items", () => {
   it("should decreades sellIn with every quality update by one", () => {
     const gildedRose = new GildedRose([new Item(name, 1, 0)]);
     const items = gildedRose.updateQuality();
@@ -49,7 +49,7 @@ describe.skip("Gilded Rose - Legendary Items", () => {
     const gildedRose = new GildedRose([new Item(name, 0, 60)]);
     gildedRose.updateQuality();
     const items = gildedRose.updateQuality();
-    expect(items[0].quality).toBe(2);
+    expect(items[0].quality).toBe(52);
   });
 
   it("should not decrease quality below 0", () => {

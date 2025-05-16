@@ -18,7 +18,7 @@ const specializedUpdaters: SpecializedQualityUpdater[] = [
   agedBrieUpdater,
   backstagePassesUpdater,
   legendaryItemUpdater,
-  // conjuredItemsUpdater,
+  conjuredItemsUpdater,
 ];
 
 const qualityUpdater: QualityUpdater = {
